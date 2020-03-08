@@ -1,0 +1,7 @@
+/etc/hosts
+/etc/resolv.conf
+
+#
+#	https://askubuntu.com/questions/64535/network-configuration-resolv-conf-and-hosts
+#	configuration file for DNS resolver
+#

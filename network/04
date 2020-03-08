@@ -1,0 +1,14 @@
+#!/bin/bash
+
+route -n get default | grep 'gateway' | awk '{print$2}'
+
+#
+#	analogous command
+#	netstat -rn | grep default
+#	-r is "show routing tables"
+#	-n is "show network addresses as numbers"
+#
+#	default gateway is the address to which packets are sent
+#	if there is no specific gateway for a given destination
+#	listed in the routing table
+#

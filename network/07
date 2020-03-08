@@ -1,0 +1,9 @@
+#!/bin/bash
+
+nslookup intra.42.fr 62.210.35.132
+
+#
+#	dig +trace intra.42.fr
+#	nslookup ns2.42.fr
+#	nslookup intra.42.fr ns2.42.fr
+#

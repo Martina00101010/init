@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ifconfig en1 | grep -o 'ether.*'
+
+#
+#	en0 is wired mac address
+#	en1 is wireless mac address
+#
