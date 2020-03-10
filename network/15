@@ -1,5 +1,8 @@
 #
 #	to redirect intra.42.fr to 46.19.122.85
-#	
-#	
+#	we need to add a new line in /etc/hosts
+#	46.19.122.85	intra.42.fr
+#
+#	P.S. but we don't have such privileges
+#			to change /etc/hosts :|
 #
