@@ -1,6 +1,6 @@
 #!/bin/bash
 
-nslookup intra.42.fr 62.210.35.132
+nslookup www.slash16.org 8.8.8.8
 
 #
 #	dig +trace intra.42.fr

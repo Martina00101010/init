@@ -1,0 +1,8 @@
+at-p3.21-school.ru.
+
+#
+#	nslookup 192.168.22.103 | grep name | awk '{print}'
+#
+#	we can use hostname command
+#	but the aim of task is to use the previous exercise
+#

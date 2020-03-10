@@ -1,0 +1,7 @@
+ISP (Internet Service Provider) of slash16.org is Amazon.com, Inc.
+
+#
+#	whois slash16.org ~> get any server_name
+#	nslookup [server_name] ~> get server_ip
+#	whois [server_ip] ~> OrgName is the ISP
+#	

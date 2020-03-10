@@ -1,0 +1,9 @@
+#!/bin/bash
+
+traceroute slash16.org
+
+#
+#	The traceroute command uses ICMP Time Exceeded messages to trace a network route.
+#	When router decrements TTL to zero, it drops the packet and sends an ICMP 
+#	time exceeded message to the original sender
+#

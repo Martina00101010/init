@@ -1,0 +1,7 @@
+PING www-lb.42.fr (163.172.250.13): 56 data bytes
+64 bytes from 163.172.250.13: icmp_seq=0 ttl=54 time=54.637 ms
+
+#
+#	ping www.42.fr shows external ip
+#	ping 42.fr shows internal ip
+#
