@@ -1,0 +1,11 @@
+systemctl status ssh | grep 'PID' | awk '{print$3}'
+
+#
+#	or '''cat /var/run/sshd.pid'''
+#	ssh is client. use it to connect to remote machines
+#	sshd is server. it is a daemon (runnning on remote machine)
+#		that allows to connect to maching
+#	https://unix.stackexchange.com/questions/8736/what-is-ssh-the-protocol-and-what-is-ssh-the-utility
+#
+#	https://unix.stackexchange.com/questions/466916/why-not-ssh-service-but-sshd-service
+#

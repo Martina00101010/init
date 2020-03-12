@@ -1,0 +1,7 @@
+#
+#	we can see debian version in these files
+#	/proc/version
+#	/etc/os-release
+#	/etc/debian_version
+#	/etc/issue
+#

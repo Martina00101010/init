@@ -1,0 +1,8 @@
+netstat -tnpa | grep 'ESTABLISHED.*sshd' | awk '{print$8}'
+
+#
+#	-n displays addresses numerically
+#	-p displays connections for speified protocol
+#	-t stands for tcp protocol and is used for flag -p
+#	-a displays all active ports
+#

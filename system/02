@@ -1,0 +1,8 @@
+hostnamectl set-hostname IAmTheMachine
+
+#
+#	use this command to rename debian system
+#
+#	when envoking '''hostname new_hostname''' command
+#		changes apply until next reboot
+#

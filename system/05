@@ -1,0 +1,5 @@
+systemctl status ssh
+
+#
+#	ssh is provided in debian with openssh-client and openssh-server packages
+#

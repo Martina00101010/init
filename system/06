@@ -1,0 +1,5 @@
+systemctl restart ssh
+
+#
+#	to restart ssh service we need root privileges
+#

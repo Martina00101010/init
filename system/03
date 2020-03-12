@@ -1,0 +1,5 @@
+#
+#	to permanently rename debian system
+#	we need to change /etc/hostname file
+#	and when appropriate /etc/hosts file
+#

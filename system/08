@@ -1,0 +1,4 @@
+#
+#	usually the file for RSA private key is ~/.ssh/id_rsa for client
+#	and on the server RSA public key is stored in ~/.ssh/authorized_keys file
+#
