@@ -1,0 +1,8 @@
+df -ah --total
+
+#
+#	df shows disk usage
+#	-a		includes pseudo, duplicate, inaccessible file systems
+#	-h		prints sizes in powers of 1024 (== human understandable way)
+#	--total	produces total and elides insignificant entries
+#

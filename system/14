@@ -1,0 +1,9 @@
+tail -f /var/log/syslog &
+
+#
+#	or '''nohub tail -f /var/log/syslog &
+#
+#	&		runs command in background
+#	nohub	remains the command running
+#			in background even if terminal was closed
+#

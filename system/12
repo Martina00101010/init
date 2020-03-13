@@ -1,0 +1,7 @@
+du -shc /var/*
+
+#
+#	-s displays total for each argument
+#	-h prints size in human readable format
+#	-c produces grand total
+#

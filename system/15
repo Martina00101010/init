@@ -1,0 +1,12 @@
+kill [process_id]
+
+#
+#	kills process running in background
+#	process can be found by '''ps -aux [command]'''
+#							'''pgrep [command]'''
+#							'''jobs'''
+#	and killed by	'''kill [process_id]'''
+#					'''pkill [cammand]'''
+#
+#	to bring process back in foreground use '''fg [process_id]'''
+#

@@ -1,0 +1,9 @@
+lsblk -ap
+
+#
+#	-a also lists empty devices and RAM disk devices
+#	-p prints full device paths
+#	
+#	lsblk lists info about all available block devices
+#	partition is a logical disc (like C: and D: disks)
+#
