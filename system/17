@@ -1,0 +1,9 @@
+ssh [user_name]@host -p [port]
+
+#
+#	-p to specify the listening
+#
+#	first, set the NAT connection
+#	for example, take host 127.0.0.1, host port 2222, guest port 22
+#	then connect to VM via ssh
+#

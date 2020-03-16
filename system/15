@@ -6,7 +6,7 @@ kill [process_id]
 #							'''pgrep [command]'''
 #							'''jobs'''
 #	and killed by	'''kill [process_id]'''
-#					'''pkill [cammand]'''
+#					'''pkill [command]'''
 #
 #	to bring process back in foreground use '''fg [process_id]'''
 #

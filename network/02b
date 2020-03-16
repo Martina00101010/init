@@ -1,3 +1,10 @@
 #!/bin/bash
 
 arp -anl
+
+#
+#	but first refresh arp table with command
+#	ping -p 3 [broadcast_address]
+#	
+#	broadcast can be found by ifconfig or ip
+#
