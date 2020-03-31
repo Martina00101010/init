@@ -1,0 +1,8 @@
+cat /etc/passwd | grep home | awk -F: '{print$1}'
+
+#
+#	real users have uid between uidmin and uidmax
+#	from /etc/login.defs /etc/adduser.conf files
+#
+#	there are regular and system users
+#

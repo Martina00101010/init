@@ -1,0 +1,8 @@
+sudo adduser [user_name]
+
+#
+#	after running the command system requires
+#	password for new user and some optional parameters
+#
+#	user can be removed with deluser command
+#

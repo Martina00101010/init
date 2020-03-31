@@ -1,0 +1,6 @@
+systemctl list-unit-files is-enabled
+
+#
+#	lists all services which are started at boot time,
+#	in other words, startup services
+#

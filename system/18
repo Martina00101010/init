@@ -1,0 +1,19 @@
+systemctl stop ssh
+
+#
+#	stops ssh service
+#
+#	'enable' hooks the specified unit into relevant places
+#	so that it will automatically start on boot
+#	or when relevant hardware is plugged in...
+#
+#	'start' starts the unit right now
+#
+#	'disable' and 'stop' are opposite to 'enable' and 'start' respectfully
+#
+#	https://askubuntu.com/questions/733469/what-is-the-difference-between-systemctl-start-and-systemctl-enable
+#
+#	disable may remove more synlinks to unit file than a prior enable
+#	envocation of the same unit created
+#	http://man7.org/linux/man-pages/man1/systemctl.1.html
+#

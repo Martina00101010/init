@@ -1,0 +1,7 @@
+cat /etc/passwd | awk -F: '{print$1}'
+
+#
+#	lists all users in system
+#
+#	-F (in awk) defines field separator
+#

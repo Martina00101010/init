@@ -1,0 +1,5 @@
+apt list | awk -F/ '{print$1}'
+
+#
+#	list all installed packages
+#

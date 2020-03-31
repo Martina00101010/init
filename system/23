@@ -1,0 +1,7 @@
+#
+#	0. install vncserver (debian) on debian server '''apt install tightvncserver'''
+#	1. install realVNC (macos) on client
+#	2. prepare environment: http://itautsors.ru/ubuntu-nastroyka-tightvncserver
+#
+#	run /etc/init.d/vncserver start
+#
