@@ -1,0 +1,6 @@
+sudo killall -u [username] ; sudo deluser --remove-all-files [username]
+
+#
+#	0. kill all processes of user which will log him out
+#	1. delete all user files
+#

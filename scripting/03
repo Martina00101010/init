@@ -1,0 +1,44 @@
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
+### cfprefsd
+
+# Disable automatic capitalization 
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Disable smart dashes
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# Disable smart quotes
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable automatic period substitution (dot after two spaces)
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
+# Disable Fn key
+defaults write -g com.apple.keyboard.fnState -bool false
+
+### Dock
+
+cp nature.jpg ~/Pictures/
+
+# Set Desktop Picture
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/USERNAME/Pictures/nature.jpg"'
+
+# Require password immediately after sleep or screen saver begins
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Wipe all (default) app icons from the Dock
+#defaults write com.apple.dock persistent-apps -array
+
+for app in "cfprefsd" \
+	"Dock" \
+	"Finder"; do
+	killall "${app}"
+done
+echo "System configured"
